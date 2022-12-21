@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>
+  <name>mkz</name>
+  <version>1.0.0</version>
+  <description>
+   mkz is end to end project, providing a quick setup for Apollo.
+  </description>
+  <maintainer email="apollo-support@baidu.com">Apollo</maintainer>
+  <type>module</type>
+  <src_path>//mkz</src_path>
+  <license>BSD</license>
+  <author>Apollo</author>
+  <builder>bazel</builder>
+
+  <depend repo_name="audio" type="binary">audio-dev</depend>
+  <depend repo_name="bridge" type="binary">bridge-dev</depend>
+  <depend repo_name="canbus" type="binary">canbus-dev</depend>
+  <depend repo_name="control" type="binary">control-dev</depend>
+  <depend repo_name="dreamview" type="binary">dreamview-dev</depend>
+  <depend repo_name="drivers" type="binary">drivers-dev</depend>
+  <depend repo_name="guardian" type="binary">guardian-dev</depend>
+  <depend repo_name="localization" lib_names="localization" type="binary">localization-dev</depend>
+  <depend repo_name="map" type="binary">map-dev</depend>
+  <depend repo_name="monitor" type="binary">monitor-dev</depend>
+  <depend repo_name="perception" type="binary">perception-dev</depend>
+  <depend repo_name="planning" type="binary">planning-gpu-dev</depend>
+  <depend repo_name="prediction" type="binary">prediction-dev</depend>
+  <depend repo_name="routing" type="binary">routing-dev</depend>
+  <depend repo_name="storytelling" type="binary">storytelling-dev</depend>
+  <depend repo_name="task-manager" type="binary">task-manager-dev</depend>
+  <depend repo_name="tools" type="binary">tools-dev</depend>
+  <depend repo_name="transform" type="binary">transform-dev</depend>
+  <depend repo_name="v2x" type="binary">v2x-dev</depend>
+
+  <depend expose="False">3rd-rules-python-dev</depend>
+  <depend expose="False">3rd-grpc-dev</depend>
+  <depend expose="False">3rd-bazel-skylib-dev</depend>
+  <depend expose="False">3rd-rules-proto-dev</depend>
+  <depend expose="False">3rd-py-dev</depend>
+  <depend expose="False">3rd-gpus-dev</depend></package>
